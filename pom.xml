@@ -248,18 +248,4 @@
 
   </build>
 
-
-  <distributionManagement>
-    <repository>
-      <id>central</id>
-      <name>repo</name>
-      <url>http://madariaga1.claro.amx:8081/artifactory/libs-release-local</url>
-    </repository>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>repo</name>
-      <url>http://madariaga1.claro.amx:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-  </distributionManagement>
-
 </project>
