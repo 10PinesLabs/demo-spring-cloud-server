@@ -1,0 +1,26 @@
+# ==========================================================================================
+#   WEB
+# ==========================================================================================
+# Configuracion del DispatcherServlet
+server:
+  port: 8081
+
+# ==========================================================================================
+#   SPRING BOOT - ACTUATORS
+# ==========================================================================================
+endpoints:
+  enabled: true
+  sensitive: true
+management:
+  context-path: /manage
+  security:
+    enabled:
+      true
+
+logging:
+  config: classpath:log4j.properties
+
+security:
+  user:
+    name: admin
+    password: admin
