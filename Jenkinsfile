@@ -1,7 +1,7 @@
 timestamps {
   currentBuild.result = "SUCCESS"
 
-  def projectName = "mimo-config-server"
+  def projectName = "demo-spring-cloud-server"
 
   properties([
     parameters([
