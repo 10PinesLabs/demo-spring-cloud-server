@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/10PinesLabs/demo-cloud-config-properties
+          ignoreLocalSshSettings: true
+          hostKeyAlgorithm: ssh-rsa
+          repos:
+            development:
+              pattern:
+                - '*/dev'
+              uri: https://github.com/10PinesLabs/demo-cloud-config-properties
+            production:
+              pattern:
+                - '*/prod'
+              uri: https://github.com/10PinesLabs/spike-cloud-config-properties
